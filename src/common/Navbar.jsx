@@ -8,7 +8,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "auto";
+    if (window.innerWidth < 768) {
+      document.body.style.overflow = open ? "hidden" : "auto";
+    } else {
+      document.body.style.overflow = "auto";
+    }
   }, [open]);
 
   return (

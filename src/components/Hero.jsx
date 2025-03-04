@@ -43,7 +43,7 @@ const Hero = () => {
         <Image
           className="position-absolute end-0 bottom-0 blue-box"
           src="/assets/images/blue-box.webp"
-          width={640}
+          width={550}
           height={273}
           alt="hero blue box"
         />
