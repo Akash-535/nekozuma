@@ -395,7 +395,7 @@ body {
   .story-heading {
     padding-top: 26px;
     padding-bottom: 8px;
-    font-size: 24px;
+    font-size: 28px;
   }
   .story-description {
     font-size: 14px;
@@ -413,12 +413,20 @@ body {
   }
 
   .team-heading {
-    font-size: 24px;
+    font-size: 28px;
     padding-top: 12px;
     padding-bottom: 18px;
   }
   .team-heading::after {
     width: 80px;
+  }
+
+  .team-card {
+    max-width: 300px;
+  }
+
+  .team-card img {
+    object-fit: cover;
   }
 
   /* ====== FOOTER ===== */

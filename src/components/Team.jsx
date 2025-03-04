@@ -13,8 +13,7 @@ const Team = () => {
         {TEAM_LIST.map((obj, i) => (
           <div key={i} className="team-card">
             <Image
-              className="pe-none"
-              width={202}
+              className="pe-none w-100"
               height={202}
               src={obj.image}
               alt="team image"
