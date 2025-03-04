@@ -24,25 +24,28 @@ const Hero = () => {
           src="/assets/images/hero-img.webp"
           width={557}
           height={557}
+          alt="hero img"
         />
         <Image
-          className="position-absolute bottom-0 start-0 user-select-none left-vector"
+          className="position-absolute start-0 user-select-none left-vector"
+          style={{ bottom: "-16px" }}
           src="/assets/images/hero-left-vector.webp"
           alt="left vector"
-          width={355}
-          height={411}
+          width={229}
         />
         <Image
           className="position-absolute end-0 bottom-0 z-1 right-vector"
           src="/assets/images/hero-right-vector.webp"
           width={564}
           height={543}
+          alt="hero left vector"
         />
         <Image
           className="position-absolute end-0 bottom-0 blue-box"
           src="/assets/images/blue-box.webp"
           width={640}
           height={273}
+          alt="hero blue box"
         />
       </div>
     </div>
