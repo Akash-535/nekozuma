@@ -130,42 +130,6 @@ body {
 }
 
 /* ========= CARD SLIDER SECTION ========= */
-.slider-one {
-  animation: slide 20s linear infinite;
-}
-
-.slider-one:hover {
-  animation-play-state: paused;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-50%);
-  }
-
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-.slider-two {
-  animation: slide-left 20s linear infinite;
-}
-
-.slider-two:hover {
-  animation-play-state: paused;
-}
-
-@keyframes slide-left {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 .card-img {
   width: 320px !important;
 }
