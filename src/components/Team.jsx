@@ -12,7 +12,13 @@ const Team = () => {
       <div className="d-flex team-card-parent flex-wrap">
         {TEAM_LIST.map((obj, i) => (
           <div key={i} className="team-card">
-            <Image width={202} height={202} src={obj.image} alt="team image" />
+            <Image
+              className="pointer-event-none"
+              width={202}
+              height={202}
+              src={obj.image}
+              alt="team image"
+            />
             <h3 className="my-0 team-post font-franklin text-center">
               {obj.post}
             </h3>
@@ -27,8 +33,8 @@ const Team = () => {
               className="d-flex justify-content-center"
             >
               <Image
-                width={20}
-                height={20}
+                style={{ width: "20px" }}
+                className="media-icon"
                 src="/assets/images/twitter.webp"
                 alt="team icon"
               />

@@ -21,7 +21,7 @@ const Story = () => {
       </p>
       <Image
         height={357}
-        className="w-100 story-img"
+        className="w-100 story-img pointer-event-none"
         src="/assets/images/story-img.webp"
         alt="story image"
       />

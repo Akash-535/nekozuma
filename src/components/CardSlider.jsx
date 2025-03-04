@@ -13,7 +13,18 @@ const CardSlider = () => {
         <Marquee direction="left">
           {SLIDER_LIST.map((obj, i) => (
             <div key={i}>
-              <Image className="card-img" src={obj} alt="card images" />
+              <Image
+                className="card-img pointer-event-none"
+                style={
+                  i === 1 || i === 6
+                    ? { width: "319px" }
+                    : i === 2 || i === 5
+                    ? { width: "321px" }
+                    : { width: "320px" }
+                }
+                src={obj}
+                alt="card images"
+              />
             </div>
           ))}
         </Marquee>
@@ -22,7 +33,18 @@ const CardSlider = () => {
         <Marquee direction="right">
           {SLIDER_LIST.map((obj, i) => (
             <div key={i}>
-              <Image className="card-img" src={obj} alt="card bottom image" />
+              <Image
+                className="card-img pointer-event-none"
+                style={
+                  i === 1 || i === 6
+                    ? { width: "319px" }
+                    : i === 2 || i === 5
+                    ? { width: "321px" }
+                    : { width: "320px" }
+                }
+                src={obj}
+                alt="card bottom image"
+              />
             </div>
           ))}
         </Marquee>

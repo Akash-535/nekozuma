@@ -21,6 +21,10 @@ body {
   width: 0px;
 }
 
+.pointer-event-none {
+  pointer-events: none;
+}
+
 .font-franklin {
   font-family: "franklin", sans-serif;
 }
@@ -142,12 +146,6 @@ body {
   border: 1px solid #3586ff;
   color: #3586ff !important;
 }
-
-/* ========= CARD SLIDER SECTION ========= */
-.card-img {
-  width: 320px !important;
-}
-
 /* =========== STORY SECTION =========== */
 
 .story-heading {

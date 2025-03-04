@@ -13,7 +13,7 @@ const BackToTop = () => {
     window.addEventListener("scroll", setHendler);
   });
   return (
-    <div>
+    <>
       {scrollTop && (
         <button
           onClick={scrollHandler}
@@ -27,7 +27,7 @@ const BackToTop = () => {
           />
         </button>
       )}
-    </div>
+    </>
   );
 };
 
