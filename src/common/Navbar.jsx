@@ -1,11 +1,16 @@
 "use client";
 import { MEDIA_ICON_LIST, NAVBAR_LIST } from "@/utils/helper";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "auto";
+  }, [open]);
+
   return (
     <div className="position-relative w-100 d-flex justify-content-between align-items-center nav-parent">
       <Link href="#" className="position-absolute nav-logo">
@@ -38,6 +43,7 @@ const Navbar = () => {
         <div
           onClick={() => setOpen(!open)}
           className="w-100 d-flex gap-2 flex-column d-md-none justify-content-center align-items-end w-100 z-3"
+          style={{ cursor: "pointer" }}
         >
           <span className={`toggle-button ${open ? "open" : "close"}`}></span>
           <span

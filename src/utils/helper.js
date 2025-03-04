@@ -34,6 +34,7 @@ export const SLIDER_LIST = [
   "/assets/images/card-img-three.webp",
   "/assets/images/card-img-four.webp",
 ];
+
 export const SLIDER_TWO_LIST = [
   "/assets/images/card-img-five.webp",
   "/assets/images/card-img-six.webp",
@@ -43,4 +44,47 @@ export const SLIDER_TWO_LIST = [
   "/assets/images/card-img-six.webp",
   "/assets/images/card-img-seven.webp",
   "/assets/images/card-img-eight.webp",
+];
+
+export const TEAM_LIST = [
+  {
+    image: "/assets/images/team-card-one.webp",
+    post: "Founder",
+    name: "Jedi Trinupab ",
+  },
+  {
+    image: "/assets/images/team-card-two.webp",
+    post: "Co Founder",
+    name: "Suptoshi",
+  },
+  {
+    image: "/assets/images/team-card-three.webp",
+    post: "Artist",
+    name: "Korn",
+  },
+  {
+    image: "/assets/images/team-card-four.webp",
+    post: "Development",
+    name: "Karmic Labs ",
+  },
+  {
+    image: "/assets/images/team-card-five.webp",
+    post: "Position",
+    name: "Jedi Trinupab ",
+  },
+  {
+    image: "/assets/images/team-card-six.webp",
+    post: "Position",
+    name: "Jedi Trinupab ",
+  },
+  {
+    image: "/assets/images/team-card-seven.webp",
+    post: "Position",
+    name: "Jedi Trinupab ",
+  },
+  {
+    image: "/assets/images/team-card-eight.webp",
+    post: "Position",
+    name: "Jedi Trinupab ",
+  },
 ];
