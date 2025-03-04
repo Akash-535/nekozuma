@@ -11,7 +11,7 @@ const Team = () => {
       </h2>
       <div className="d-flex team-card-parent flex-wrap">
         {TEAM_LIST.map((obj, i) => (
-          <div key={i} className="team-card">
+          <div key={i} className="team-card mx-md-0">
             <Image width={202} height={202} src={obj.image} alt="team image" />
             <h3 className="my-0 team-post font-franklin text-center">
               {obj.post}
