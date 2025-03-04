@@ -7,12 +7,12 @@ const Footer = () => {
   return (
     <div className="footer-parent position-relative d-flex flex-column justify-content-center">
       <Image
-        className="position-absolute start-0 bottom-0 footer-left-vector pointer-event-none"
+        className="position-absolute start-0 bottom-0 footer-left-vector pe-none"
         src="/assets/images/footer-left-vector.webp"
         alt="footer image"
       />
       <Image
-        className="position-absolute end-0 bottom-0 footer-right-vector pointer-event-none"
+        className="position-absolute end-0 bottom-0 footer-right-vector pe-none"
         src="/assets/images/footer-right-vector.webp"
         alt="footer image"
       />

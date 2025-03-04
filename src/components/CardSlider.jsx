@@ -14,7 +14,7 @@ const CardSlider = () => {
           {SLIDER_LIST.map((obj, i) => (
             <div key={i}>
               <Image
-                className="card-img pointer-event-none"
+                className="card-img pe-none"
                 style={
                   i === 1 || i === 6
                     ? { width: "319px" }
@@ -34,7 +34,7 @@ const CardSlider = () => {
           {SLIDER_LIST.map((obj, i) => (
             <div key={i}>
               <Image
-                className="card-img pointer-event-none"
+                className="card-img pe-none"
                 style={
                   i === 1 || i === 6
                     ? { width: "319px" }

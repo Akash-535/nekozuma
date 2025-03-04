@@ -23,7 +23,7 @@ const BackToTop = () => {
           <Image
             style={{ width: "40px", border: "0" }}
             src="/assets/images/back-to-top.webp"
-            alt=""
+            alt="back to top image"
           />
         </button>
       )}

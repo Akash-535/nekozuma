@@ -20,28 +20,28 @@ const Hero = () => {
           </button>
         </div>
         <Image
-          className="position-relative z-1 pointer-event-none"
+          className="position-relative z-1 pe-none"
           src="/assets/images/hero-img.webp"
           width={557}
           height={557}
           alt="hero img"
         />
         <Image
-          className="position-absolute start-0 user-select-none left-vector pointer-event-none"
+          className="position-absolute start-0 user-select-none left-vector pe-none"
           style={{ bottom: "-16px" }}
           src="/assets/images/hero-left-vector.webp"
           alt="left vector"
           width={229}
         />
         <Image
-          className="position-absolute end-0 bottom-0 z-1 right-vector pointer-event-none"
+          className="position-absolute end-0 bottom-0 z-1 right-vector pe-none"
           src="/assets/images/hero-right-vector.webp"
           width={564}
           height={543}
           alt="hero left vector"
         />
         <Image
-          className="position-absolute end-0 bottom-0 blue-box pointer-event-none"
+          className="position-absolute end-0 bottom-0 blue-box pe-none"
           src="/assets/images/blue-box.webp"
           width={550}
           height={273}
