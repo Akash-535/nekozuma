@@ -1,3 +1,4 @@
+import BackToTop from "@/common/BackToTop";
 import Footer from "@/common/Footer";
 import CardSlider from "@/components/CardSlider";
 import Hero from "@/components/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <Story />
       <Team />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
