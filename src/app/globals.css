@@ -19,6 +19,10 @@ body {
 }
 .media-icon {
   width: 24px;
+  transition: all 300ms linear;
+}
+.media-icon:hover {
+  scale: 1.1;
 }
 .toggle-button {
   width: 32px;

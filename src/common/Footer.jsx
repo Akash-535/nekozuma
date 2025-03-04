@@ -23,6 +23,7 @@ const Footer = () => {
         {MEDIA_ICON_LIST.map((obj, i) => (
           <Link key={i} href={obj.link} target="_blank">
             <Image
+              className="media-icon"
               style={{ width: 32, height: 32 }}
               src={obj.icon}
               alt="media icon"
